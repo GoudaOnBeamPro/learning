@@ -1,6 +1,9 @@
 ;;; This is the program we were asked to create ourselves based off of the 
 ;;; sqrt program. It uses Newton's formula for approximating the cube-root.
 ;;; I was pretty darn proud of this.
+;;;
+;;; This is meant to be loaded in an interpreter. Do not try to compile and run!
+
 
 (define (cbrt x)
   (define (good-enough? guess)
