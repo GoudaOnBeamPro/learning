@@ -1,13 +1,11 @@
 ;;;                     This one is a bit of a doozy....		     ;;;
-;;; First, let's observe that for n >= 3, the equation is:
+;;; First, let's observe that if n < 3, f(n) = n, and if n >= 3,
 ;;; f(n) = f(n - 1) + 2f(n - 2) + 3f(n - 3). Because of their special relation,
 ;;; we can replace 1, 2, and 3 with a, b, and c, repectively, and get
 ;;; f(n) = a*f(n - a) + b*f(n - b) + c*f(n - c). If we plug in 3 for n, we could
 ;;; see that this would be the first iteration in a supposed process that would
-;;; NOT have to be recursive any longer, since all of the proceeding a, b, and c
-;;; values would be less than 3, which will just return the given value. Think
-;;; on that one for a bit, and if it still doens't make since, there might be a
-;;; hint or two below.
+;;; NOT have to be recursive any longer since all of the f(n) values would be n.
+;;; If it still doens't make since, there might be a hint or two below.
 ;;;
 ;;; TL;DR This is crazy, but it works!
 ;;;
