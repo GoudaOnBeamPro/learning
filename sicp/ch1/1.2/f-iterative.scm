@@ -5,7 +5,7 @@
 ;;; f(n) = a*f(n - a) + b*f(n - b) + c*f(n - c). If we plug in 3 for n, we could
 ;;; see that this would be the first iteration in a supposed process that would
 ;;; NOT have to be recursive any longer since all of the f(n) values would be n.
-;;; If it still doens't make since, there might be a hint or two below.
+;;; If this still doens't make sense, there might be a hint or two below.
 ;;;
 ;;; TL;DR This is crazy, but it works!
 ;;;
