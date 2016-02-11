@@ -11,4 +11,4 @@ Thanks for checking this out! :)
 [@JMBSD](https://twitter.com/JMBSD/)
 
 # License
-[The MIT License](LICENSE)
+[The MIT License](LICENSE.txt)
