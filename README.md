@@ -1,4 +1,4 @@
-# learning
+# Learning
 This is the code from my first dive into programming.
 
 There are two folders in the main directory. 'lpthw' is the directory contating my exercises from the book
@@ -8,3 +8,6 @@ and Interpretation of Computer Programs.
 Thanks for checking this out! :)
 
 @JMBSD
+
+# License
+[The MIT License](LICENSE)

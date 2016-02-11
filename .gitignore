@@ -1,2 +1,7 @@
+# Ignore unecessary things
 lpthw/*.txt
+sicp/misc/
+
+# Don't ignore these great files!
 !**/README.*
+!**/LICENSE.*
