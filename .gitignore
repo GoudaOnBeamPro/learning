@@ -1,6 +1,8 @@
 # Ignore unecessary things
 lpthw/*.txt
-sicp/misc/
+lpthw/tags
+sicp/tags
+sicp/misc
 
 # Don't ignore these great files!
 !**/README.*

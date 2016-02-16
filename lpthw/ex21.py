@@ -1,4 +1,5 @@
 def add(a, b):
+    """Add the two integers together."""
     print "ADDING %d + %d" % (a, b)
     return a + b
 
