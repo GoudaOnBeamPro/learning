@@ -1,6 +1,7 @@
 # Ignore unecessary things
 lpthw/*.txt
 lpthw/tags
+lpthw/misc
 sicp/tags
 sicp/misc
 
