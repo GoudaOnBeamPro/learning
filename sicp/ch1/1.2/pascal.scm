@@ -16,7 +16,7 @@
 ;;; Rememebr, this is meant for an interpreter. Do not compile!
 
 (define (pascal-t c r)
-  (cond ((or (> c r) (<= c 0) (<= r 0)) 0)
+  (cond ((or (> c r) (<= c 0) (<= r 0)) #f)
 	((or (= c 1) (= c r)) 1)
 	(else (+ (pascal-t (- c 1)
 			   (- r 1))
