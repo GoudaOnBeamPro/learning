@@ -2,6 +2,7 @@
 lpthw/*.txt
 **/tags
 **/misc
+**/a.out
 
 # Don't ignore these great files!
 !**/README.*
