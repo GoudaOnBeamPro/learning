@@ -3,7 +3,8 @@ lpthw/*.txt
 **/tags
 **/misc
 **/a.out
+**/*.pyc
 
 # Don't ignore these great files!
-!**/README.*
-!**/LICENSE.*
+!**/README*
+!**/LICENSE*
