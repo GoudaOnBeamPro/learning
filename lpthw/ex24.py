@@ -30,6 +30,7 @@ def secret_formula(started):
 
 
 start_point = 10000
+# Notice how 'beans' here was called 'jelly_beans' in the function
 beans, jars, crates = secret_formula(start_point)
 
 print "With a starting point of %d" % start_point
