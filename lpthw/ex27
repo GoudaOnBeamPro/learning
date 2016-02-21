@@ -1,0 +1,23 @@
+Logic Tables
+
+        AND   OR
+  T, F  F     T
+  T, T  T     T
+  F, T  F     T
+  F, F  F     F
+
+        NOT
+  not T F
+  not F T
+
+        NOT AND   NOT OR
+  T, F  T         F
+  T, T  F         F
+  F, T  T         F
+  F, F  T         T
+
+        !=    ==
+  1, 0  T     F
+  1, 1  F     T
+  0, 1  T     F
+  0, 0  F     T
