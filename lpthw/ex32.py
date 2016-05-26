@@ -6,6 +6,11 @@ change = [1, 'pennies', 2, 'dimes', 3, 'quarters']
 for number in the_count:
     print "This is count %d" % number
 
+# HEY CHECK THIS OUT!!
+# DID YOU KNOW that when a for-loop uses a variable that hasn't been
+# defined yet, it defines that variable and initializes (x = "blank")
+# to the current element of the loop iteration every time it loops thorugh
+
 # same as above
 for fruit in fruits:
     print "A fruit of type: %s" % fruit
