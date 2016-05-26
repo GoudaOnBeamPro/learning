@@ -28,8 +28,6 @@ if people == dogs:
 # Study Drill 4
 
 if (cats > dogs and dogs == people):
-    print "In this universe, there are more cats than both people and \
-            dogs."
+    print "In this universe, there are more cats than both people and dogs."
 if (cats < dogs and dogs == people):
-    print "In this universe, there are more dogs than both cats and \
-            people."
+    print "In this universe, there are more dogs than both cats and people."
