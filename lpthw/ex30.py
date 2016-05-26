@@ -25,7 +25,7 @@ else:
 # Study Drills
 
 if (buses > cars and cars > people):
-    print "The buses out numbers us... DECEPTICONS!!"
+    print "The buses out number us... DECEPTICONS!!"
 elif (buses > cars and cars < people):
     print "This line won't print... just trust me. *peers through console*"
 else:
