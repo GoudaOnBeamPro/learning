@@ -29,5 +29,24 @@ elif door == "2":
     else:
         print "The insanity rots your eyes into a pool of muck. Good job!"
 
+elif door == "3":
+    print "You create an alternate plane of reality in front of you."
+    print "A portal to an uncharted world stands at your feet."
+    print "What will you do?"
+    print "1. Walk through the portal."
+    print "2. Stand still."
+    print "3. Try to close the portal."
+
+    portal = raw_input("> ")
+
+    if portal == "1":
+        print "You walk through the portal and arrive in Arborea. Good job!"
+    elif portal == "2":
+        print "After a few seconds, the portal snaps shut and in your face", " is Cthulhu. You die. Good job!"
+    elif portal == "3":
+        print "You try to close the portal but it's too stong and you die. Good job!"
+    elif portal == "4":
+        print "You think you're pretty slick, huh? You die a slow and painful death. Good job!"
+
 else:
     print "You stumble around and fall on a knife and die. Good job!"
