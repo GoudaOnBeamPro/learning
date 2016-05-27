@@ -5,8 +5,10 @@ Learn Python the Hard Way, by Zed A. Shaw. The book is offered online for free
 
 I started the book sometime in mid-Decemeber of 2015, knowing that I'd have
 to teach myself programming before I would be able to get into a computer
-science program at a university. As of 2/8/2015, I'm holding off on completing
-this book so that I can go through SICP. I will probably come back and do some 
-more after I complete its first chapter.
+science program at a university (although looking back on it now, that isn't
+necessarily true). As of 5/27/2016, I have resumed my progress in the book and
+I am now over half way throught it! I imagine that the rest of it will be
+completed within the next few months now that I have a slightly less hectic
+schedule.
 
 [@JMBSD](https://twitter.com/JMBSD/)
