@@ -42,6 +42,35 @@
 #list_numbers(a)
 
 #Study Drill Part 2
+#print "What's the limit of the list?"
+#a = int(raw_input("> "))
+#
+#print "What is the desired increment?"
+#n = int(raw_input("> "))
+#
+#def list_numbers():
+#    """This function might add numbers to a list?"""
+#    i = 0
+#    numbers = []
+#
+#    while i < a:
+#        print "At the top i is %d" % i
+#        numbers.append(i)
+#
+#        i += n
+#        print "Numbers now: ", numbers
+#        print "At the bottom i is %d" % i
+#
+#    print "The numbers: "
+#
+#    for num in numbers:
+#        print num
+#
+#    return
+#
+#list_numbers()
+
+#Study Drill Part 3
 print "What's the limit of the list?"
 a = int(raw_input("> "))
 
@@ -49,15 +78,14 @@ print "What is the desired increment?"
 n = int(raw_input("> "))
 
 def list_numbers():
-    """This function might add numbers to a list?"""
+    """This function adds numbers to a list"""
     i = 0
     numbers = []
 
-    while i < a:
+    for i in range(0, a, n):
         print "At the top i is %d" % i
         numbers.append(i)
 
-        i += n
         print "Numbers now: ", numbers
         print "At the bottom i is %d" % i
 
