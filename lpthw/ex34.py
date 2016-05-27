@@ -9,3 +9,5 @@ print "The fifth animal is whale:", 'whale' == animals[4]
 print "The animal at 2 is peacock:", 'peacock' == animals[2]
 print "The sixth animal is platypus:", 'platypus' == animals[5]
 print "The animal at 4 is whale:", 'whale' == animals[4]
+
+# Pfffft, of course I got them all correct!
