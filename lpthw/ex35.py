@@ -32,6 +32,8 @@ def bear_room():
             bear_moved = True
         elif next == "taunt bear" and bear_moved:
             dead("The bear gets pissed off and chews your leg off.")
+        elif next == "open door" and not bear_moved:
+            dead("YOU IDIOT!")
         elif next == "open door" and bear_moved:
             gold_room()
         else:
