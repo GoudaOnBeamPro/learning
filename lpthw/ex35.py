@@ -43,6 +43,7 @@ def bear_room():
             print "I got no idea what that means."
 
 def cthulhu_room():
+    """This function herlads the Great Old One"""
     print "Here you see the great evil Cthulhu."
     print "He, it, whatever stares at you and you go insane."
     print "Do you flee for your life or eat your head?"
@@ -57,10 +58,12 @@ def cthulhu_room():
         cthulhu_room()
 
 def dead(why):
+    """This function reports your death and kills the program."""
     print why, "Good job!"
     exit(0)
 
 def start():
+    """This fucntion is the start of the game"""
     print "You are in a dark room."
     print "There is a door to your right and left."
     print "Which one do you take?"
