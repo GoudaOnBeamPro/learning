@@ -17,7 +17,7 @@
 
 #Study Drills
 print "What's the limit of the list?"
-a = raw_input("> ")
+a = int(raw_input("> "))
 
 def list_numbers(a):
     """This function might add numbers to a list?"""
