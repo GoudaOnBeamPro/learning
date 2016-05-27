@@ -1,12 +1,13 @@
 from sys import exit
 
 def gold_room():
+    """This is a function for the room of gold!"""
     print "This room is full of gold. How much do you take?"
 
     next = raw_input("> ")
-    if "0" in next or "1" in next:
+    try:
         how_much = int(next)
-    else:
+    except ValueError:
         dead("Man, learn to type a number.")
 
     if how_much < 50:
@@ -16,12 +17,14 @@ def gold_room():
         dead("You greedy bastard!")
 
 def bear_room():
+    """This is a function for the bear room. RAWR!"""
     print "There is a bear here."
     print "The bear has a bunch of honey."
     print "The fat bear is in front of another door."
     print "How are you going to move the bear?"
     bear_moved = False
 
+    # This loops forever until it calls another function or breaks
     while True:
         next = raw_input("> ")
 
